@@ -20,7 +20,7 @@ common computer vision models and some useful tools base on [tiny-tensorrt](http
 for run sample you need to install opencv and TensorRT
 
 ```bash
-git clone --recursive https://github.com/zerollzeng/tensorrt-zoo.git
+git clone --recursive https://github.com/mm1327/tensorrt-zoo.git
 mkdir build && cd build && cmake -D PYTHON_API ON .. && make
 ```
 for yolo3 sample see docs/yolov3.md
