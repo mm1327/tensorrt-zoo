@@ -115,7 +115,8 @@ int main(int argc, char** argv) {
         cv::circle(img,cv::Point(result[i*3],result[i*3+1]),2,cv::Scalar(0,255,0),-1);
     }
     cv::imwrite("result.jpg",img);
-    
+    cv::imshow("result",img);
+    cv::waitKey(5000);
     return 0;
 
 }
